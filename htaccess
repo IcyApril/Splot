@@ -1,0 +1,9 @@
+# RENAME THIS FILE TO .HTACCESS (THE DOT IS IMPORTANT).
+#rewrite
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)$ index.php?q=$1 [L,QSA]
+
+#no directory browsing for you!
+Options -Indexes
