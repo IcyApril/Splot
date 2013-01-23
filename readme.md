@@ -11,7 +11,7 @@ A file sharing website script which uses Amazon S3, comes with legal notices and
 
 What you need to tweak to get it running
 --------------
-Sign up for AWS S3 and create an S3 bucket named Splot.cc (if you choose a different name enter it into the index.php file)
-Create a new MySQL database (e.g. named splot).
-Edit _src/php/connect.php to include your MySQL database details and your S3 keys.
-Make other customisations.
+- Sign up for AWS S3 and create an S3 bucket named Splot.cc (if you choose a different name enter it into the index.php file)
+- Create a new MySQL database (e.g. named splot).
+- Edit _src/php/connect.php to include your MySQL database details and your S3 keys.
+- Make other customisations.
