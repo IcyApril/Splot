@@ -9,8 +9,8 @@ include('../_src/php/functions.php');
 if (!class_exists('S3'))require_once('../_src/php/s3/S3.php');
 
 //AWS access info
-if (!defined('awsAccessKey')) define('awsAccessKey', 'AKIAIUUN5TUOGLUQQFWA');
-if (!defined('awsSecretKey')) define('awsSecretKey', '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');
+if (!defined('awsAccessKey')) define('awsAccessKey', 'changeMe');
+if (!defined('awsSecretKey')) define('awsSecretKey', 'changeMe');
 
 //instantiate the class
 $s3 = new S3(awsAccessKey, awsSecretKey);
